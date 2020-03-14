@@ -8,7 +8,7 @@
 
 2. 点击Windows hosts下载windows版本的virtualbox
 
-   ![virtual-02](./pic/virtual-02.jpg)
+   ![virtual-02](./pic/virtualbox-02.jpg)
 
 3. 下载后直接下一步, 下一步安装即可
 
