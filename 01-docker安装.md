@@ -4,11 +4,11 @@
 
 1. 访问**[virtualbox官网](https://www.virtualbox.org/)**的**[下载链接](https://www.virtualbox.org/wiki/Downloads)**
 
-   ![virtualbox](.\pic\virtualbox-01.jpg)
+   ![virtualbox](./pic/virtualbox-01.jpg)
 
 2. 点击Windows hosts下载windows版本的virtualbox
 
-   ![virtual-02](.\pic\virtual-02.jpg)
+   ![virtual-02](./pic/virtual-02.jpg)
 
 3. 下载后直接下一步, 下一步安装即可
 
@@ -16,13 +16,13 @@
 
 1. 访问**[Vagrant官网](https://www.vagrantup.com/)**的**[下载链接](https://www.vagrantup.com/downloads.html)**
 
-   ![Vagrant-01](.\pic\Vagrant-01.jpg)
+   ![Vagrant-01](./pic/Vagrant-01.jpg)
 
    
 
-   ![Vagrant-02](.\pic\Vagrant-02.jpg)
+   ![Vagrant-02](./pic/Vagrant-02.jpg)
 
-   ![Vagrant-03](.\pic\Vagrant-03.jpg)
+   ![Vagrant-03](./pic/Vagrant-03.jpg)
 
 2. 选择windows-64bit版本, 复制下载链接, 使用迅雷下载
 
@@ -37,15 +37,15 @@
 
    进入[**Vagrant官网**](https://www.vagrantup.com/)点击[**Find boxes**](https://app.vagrantup.com/boxes/search)
 
-   ![Vagrant-04](.\pic\Vagrant-04.jpg)
+   ![Vagrant-04](./pic/Vagrant-04.jpg)
 
    选择CentOS, 点击进入
 
-![Vagrant-05](.\pic\Vagrant-05.jpg)
+![Vagrant-05](./pic/Vagrant-05.jpg)
 
 ​	获取url, 可以直接右键复制链接, 也可以点进去, 在地址栏复制链接
 
-![Vagrant-06](.\pic\Vagrant-06.png)
+![Vagrant-06](./pic/Vagrant-06.png)
 
 ​	拼接最终的url, 得到下载链接
 
