@@ -70,7 +70,7 @@ https://app.vagrantup.com/centos/boxes/7/versions/2020.01/providers/virtualbox.b
 5. 初始化虚拟机
 
    ```shell
-   vagrant init
+   vagrant init centos7	#centos7就是执行add命令时指定的名字
    ```
 
 6. 如果前面的命令都执行成功, 此时会在virtualbox中看到新创建了一个虚拟机, 此时centos虚拟机创建成功
