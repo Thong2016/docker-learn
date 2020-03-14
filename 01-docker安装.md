@@ -4,7 +4,7 @@
 
 1. 访问**[virtualbox官网](https://www.virtualbox.org/)**的**[下载链接](https://www.virtualbox.org/wiki/Downloads)**
 
-   ![virtualbox](.\pic\virtualbox-01.jpg)
+   ![virtualbox](./pic/virtualbox-01.jpg)
 
 2. 点击Windows hosts下载windows版本的virtualbox
 
