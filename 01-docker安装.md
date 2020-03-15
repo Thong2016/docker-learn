@@ -87,7 +87,7 @@ https://app.vagrantup.com/centos/boxes/7/versions/2020.01/providers/virtualbox.b
 
    | 命令                            | 含义             |
    | ------------------------------- | ---------------- |
-   | vagrant init                    | 初始化虚拟机     |
+   | vagrant init centos7            | 初始化虚拟机     |
    | vagrant up                      | 启动虚拟机(开机) |
    | vagrant halt                    | 关闭虚拟机(关机) |
    | vagrant reload                  | 重启虚拟机       |
@@ -110,7 +110,15 @@ https://app.vagrantup.com/centos/boxes/7/versions/2020.01/providers/virtualbox.b
    vagrant ssh
    ```
 
-2. 删除系统中原有的旧版本docker
+2. 升级所有包, 软件和系统内核
+
+   ```shell
+   sudo yum update
+   ```
+   
+   
+   
+3. 删除系统中原有的旧版本docker
 
    ```shell
    sudo yum remove docker \
@@ -123,7 +131,7 @@ https://app.vagrantup.com/centos/boxes/7/versions/2020.01/providers/virtualbox.b
                      docker-engine
    ```
 
-3. 安装必须的packages
+4. 安装必须的packages
 
    ```shell
    sudo yum install -y yum-utils \
@@ -131,27 +139,27 @@ https://app.vagrantup.com/centos/boxes/7/versions/2020.01/providers/virtualbox.b
      lvm2
    ```
 
-4. 设置yum源, 需要使用国内镜像, 否则后面会报404
+5. 设置yum源, 需要使用国内镜像, 否则后面会报404
 
    ```shell
    ls /etc/yum.repos.d	#添加yum源之前可以先查看本机已有的yum源
    yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
-   /etc/yum.repos.d	#查看刚刚新增的yum源
+   ls /etc/yum.repos.d	#查看刚刚新增的yum源
    ```
 
-5. 安装docker
+6. 安装docker
 
    ```shell
    sudo yum install docker-ce docker-ce-cli containerd.io
    ```
 
-6. 启动docker
+7. 启动docker
 
    ```shell
    sudo systemctl start docker
    ```
 
-7. 验证docker是否安装成功
+8. 验证docker是否安装成功
 
    ```shell
    sudo docker run hello-world
